@@ -50,6 +50,10 @@ class EndpointsAsyncTask extends AsyncTask <Context, Void, String> {
     @Override
     protected void onPostExecute(String result) {
 
+
+        //TODO 1: Switched to AndroidLibraryJokeActivityFragment from just Activity and got
+        // "android.content.ActivityNotFoundException: Unable to find explicit activity class {com.udacity.gradle.builditbigger.paid/com.example.android.anrdlib.AndroidLibraryJokeFragment}; have you declared this activity in your AndroidManifest.xml?"
+
         final Intent jokeIntent = new Intent(context, AndroidLibraryJokeActivity.class);
         jokeIntent.putExtra("jokeIntent", result);
         context.startActivity(jokeIntent);

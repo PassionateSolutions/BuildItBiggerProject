@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--CODE A STUDENT HELPED ME WITH TO GET RID OF A CONNECTION ERROR I WAS GETTING WHEN TRYING TO CONNECT TO MY PHONE-->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>
