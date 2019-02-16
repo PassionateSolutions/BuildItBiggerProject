@@ -9,6 +9,8 @@ public class JavaJokeLib {
 
     // Zombie Joke List
 
+    // Some jokes made up and some used from http://www.jokes4us.com/peoplejokes/zombiejokes.html
+
     List<String> zombieJokeList = asList (
 
         "(1)Why are zombies so successful? \n They are so dedicated!",
