@@ -37,5 +37,7 @@ public class AsyncTaskDeviceJokeTest {
         // textView found within the anrdlib>main>res>layout>fragment_android_library_joke
         // If it comes back as not empty then we pass the test!
         onView(withId(R.id.android_library_joke_fragment)).check(matches(not(withText(JOKE_EMPTY_NOT_FUNNY))));
+
     }
+
 }
